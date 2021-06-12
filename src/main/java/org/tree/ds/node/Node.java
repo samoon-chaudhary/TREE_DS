@@ -5,11 +5,6 @@ public class Node {
     public Node right;
     public int data;
 
-
-    public Node(int data) {
-        this.data = data;
-    }
-
     public Node(){}
     public Node(int data) {
         this.data = data;
