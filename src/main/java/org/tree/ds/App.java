@@ -13,6 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
+<<<<<<< HEAD
         Node root=new Node(2);
         root.left=new Node(3);
         root.right=new Node(4);
@@ -21,6 +22,9 @@ public class App
         root.right.right=new Node(7);
         root.right.left=new Node(9);
         root.left.left.left=new Node(11);
+=======
+       Node root=new Node().createNode();
+>>>>>>> e849a94d0d01558c2bfc2e6558e6bd0901427633
         showTree(root);
         System.out.println();
         System.out.println("-------------------------");
