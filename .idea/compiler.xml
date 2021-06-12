@@ -6,7 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+        <module name="TREE_DS" />
         <module name="tree-ds" />
+=======
+        <module name="tree-ds" />
+        <module name="TREE_DS-TDS001" />
+>>>>>>> e849a94d0d01558c2bfc2e6558e6bd0901427633
       </profile>
     </annotationProcessing>
   </component>
