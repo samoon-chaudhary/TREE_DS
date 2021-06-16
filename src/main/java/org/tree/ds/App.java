@@ -23,6 +23,7 @@ public class App
         System.out.println();
         System.out.println("-------------------------");
         levelOrderTraversal(root);
+        checkFlag();
     }
 
     private static void showTree(Node root) {
@@ -42,6 +43,18 @@ public class App
             System.out.print(element.data+" ");
             if(element.left!=null) list.add(element.left);
             if(element.right!=null) list.add(element.right);
+        }
+    }
+    private static boolean flag1(){
+        return false;
+    }
+    private static boolean flag2(){
+        return false;
+    }
+    private static void checkFlag(){
+        if(!(flag1() || flag2())){
+            System.out.println();
+            System.out.println("flag1 : "+flag1()+" , flag2 : "+flag2());
         }
     }
 }
