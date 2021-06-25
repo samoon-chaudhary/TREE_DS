@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 /*Tree Traversals */
 public class App 
-{
+{   public static String master="It's only added in master branch manually in github";
     public static void main( String[] args )
     {
         Node root=new Node().createNode();
