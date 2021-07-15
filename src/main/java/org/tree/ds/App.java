@@ -6,10 +6,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 /*Tree Traversals */
 public class App 
-{
+{   private static String str="string checking for git revert";
     public static void main( String[] args )
     {
         Node root=new Node().createNode();
+
+
+
         System.out.println("------------ all tree nodes----------------");
         showTree(root);
         System.out.println();
