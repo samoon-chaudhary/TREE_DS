@@ -6,18 +6,14 @@ import java.util.LinkedList;
 import java.util.Queue;
 /*Tree Traversals */
 public class App 
-{   public static String test="for testing purpose";
+{
     public static void main( String[] args )
     {
         Node root=new Node().createNode();
         System.out.println("------------ all tree nodes----------------");
-
-
         showTree(root);
         System.out.println();
         System.out.println("------------ levelOrderTraversal------------");
-
-
         levelOrderTraversal(root);
         System.out.println();
         System.out.println("------------- InOrderTraversal--------------");
